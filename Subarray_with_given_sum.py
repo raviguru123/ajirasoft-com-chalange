@@ -1,6 +1,5 @@
 #code
-import types
-
+import types;
 
 def main():
     output={};
