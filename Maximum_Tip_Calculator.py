@@ -1,4 +1,5 @@
 #code
+
 def MyFn(a):
     return a[1];
 
@@ -10,26 +11,22 @@ def Maximum_Tip_Calculator(tip1,tip2,waiter1,waiter2):
     abs_tips=sorted(abs_tips,key=MyFn,reverse=True);
     
     profit=0;
-    print(abs_tips);
+    # print(abs_tips);
     for profit_tup in abs_tips:
         if(tip1[profit_tup[0]]>tip2[profit_tup[0]] and waiter1>0):
-            print(tip1[profit_tup[0]]);
             profit+=tip1[profit_tup[0]];
             waiter1-=1;
         elif(tip2[profit_tup[0]]>tip1[profit_tup[0]] and waiter2>0):
-            print(tip2[profit_tup[0]]);
             profit+=tip2[profit_tup[0]];
             waiter2-=1;
         elif(waiter1>0):
-            print(tip1[profit_tup[0]]);
             profit+=tip1[profit_tup[0]];
             waiter1-=1;
         else:
-            print(tip2[profit_tup[0]]);
             profit+=tip2[profit_tup[0]];
             waiter2-=1;
         
-        # print(waiter1,waiter2,profit);
+        
     return profit;
 
 
