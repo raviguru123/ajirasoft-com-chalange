@@ -1,6 +1,14 @@
 def spiral(a):
-    row=len(a);
-    col=len(a[0]);
+    if(isinstance(a[0],list)):
+        row=len(a);
+        col=len(a[0]);
+    else:
+        for i in a:
+            print(i, end=' ');
+        print();
+        return;
+        
+    
     start_row=0;
     end_row=row-1;
     start_col=0;
@@ -30,10 +38,7 @@ def spiral(a):
         print();
     print();
     print();
-a = [[1,1,1,1],
-     [1,2,2,1],
-     [1,2,2,1],
-     [1,1,1,1]]
+a = [1,2,3,4]
      
 #Calling Function
 spiral(a)
