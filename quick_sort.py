@@ -22,10 +22,6 @@ def quick_sort(arr,low,high):
         quick_sort(arr,piv+1,high);
 
 
-
-
-
-
 a=[10,6,7,8,9,1];
 quick_sort(a,0,len(a)-1);
 print(a);

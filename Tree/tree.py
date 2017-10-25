@@ -68,18 +68,3 @@ class Tree:
         self.root.postorder();
         print();
         print('-----------------------------------------------');
-
-
-# bst.inorder();
-
-# bst.insert(10);
-# bst.insert(5);
-# bst.insert(15);
-# bst.insert(4);
-# bst.insert(6);
-# bst.insert(11);
-# bst.insert(16);
-# bst.insert(9);
-# bst.inorder();
-# bst.preorder();
-# bst.postorder();

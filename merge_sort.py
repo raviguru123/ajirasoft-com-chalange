@@ -45,11 +45,6 @@ def merge(arr,first,last):
     memoize(arr,first,mid,mid+1,last);
 
 
-
-
-
-
-
 arr=[7,6,5,36,3,2,1];
 merge(arr,0,len(arr)-1);
 print(arr);

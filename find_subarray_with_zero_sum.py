@@ -37,3 +37,8 @@ for i in range(testcase):
 
 for i in output:
     print(i);
+
+
+    
+
+    
