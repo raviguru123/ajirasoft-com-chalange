@@ -12,8 +12,6 @@ def vertical_sum(root,distance):
         dict[distance]=root.data;
     vertical_sum(root.left,distance-1);
     vertical_sum(root.right,distance+1);
-    
-
 
 bst=tree.Tree();
 bst.root=tree.node(5);
