@@ -8,3 +8,5 @@ def my_function(a,b):
 a=[12,9,10];
 a.sort(key=functools.cmp_to_key(my_function));
 print(a);
+
+for 
