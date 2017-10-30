@@ -18,13 +18,6 @@ def min_cost(arr,low,high,x,y,dict):
         
 
 
-
-
-
-
-
-
-
 test=int(input());
 output=[];
 for i in range(test):
